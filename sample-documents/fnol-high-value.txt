@@ -1,0 +1,38 @@
+FIRST NOTICE OF LOSS (FNOL)
+========================================
+
+POLICY INFORMATION
+------------------
+Policy Number: POL-2025-009911
+Policyholder Name: Vikram Singh
+Effective Start Date: 11/20/2024
+Effective End Date: 11/20/2025
+
+INCIDENT INFORMATION
+--------------------
+Incident Date: 02/22/2025
+Incident Time: 21:10
+Location: Near IKEA Junction, Hitech City, Hyderabad, Telangana 500081
+Description: Car hit a divider while avoiding sudden braking by the vehicle ahead. Front bumper, headlight, and grille damaged due to moderate-speed impact. No suspicious circumstances observed.
+
+INVOLVED PARTIES
+----------------
+Claimant Name: Vikram Singh
+Third Parties: None
+Contact Details: Phone: 9123456780, Email: vikram.singh@gmail.com
+
+ASSET DETAILS
+-------------
+Asset Type: Vehicle
+Asset ID: TS09XY8899
+Estimated Damage: ₹1,45,000
+
+CLAIM INFORMATION
+-----------------
+Claim Type: property
+Initial Estimate: ₹1,45,000
+Attachments: photos_front_damage.jpg, repair_estimate.pdf
+
+ADDITIONAL NOTES
+----------------
+Traffic police were informed. No injuries reported. Vehicle towed to nearby service center.

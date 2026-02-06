@@ -1,0 +1,8 @@
+com\insurance\claims\service\FieldExtractionService.class
+com\insurance\claims\dto\ClaimExtractionResult$ClaimExtractionResultBuilder.class
+com\insurance\claims\dto\ClaimExtractionResult.class
+com\insurance\claims\util\RoutingConstants.class
+com\insurance\claims\service\DocumentParserService.class
+com\insurance\claims\controller\FraudPenaltyController.class
+com\insurance\claims\service\FraudPenaltyService.class
+com\insurance\claims\service\FraudPenaltyService$1.class

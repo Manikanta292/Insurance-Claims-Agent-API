@@ -1,0 +1,38 @@
+FIRST NOTICE OF LOSS (FNOL)
+========================================
+
+POLICY INFORMATION
+------------------
+Policy Number: POL-2025-003344
+Policyholder Name: Anitha Reddy
+Effective Start Date: 08/01/2024
+Effective End Date: 08/01/2025
+
+INCIDENT INFORMATION
+--------------------
+Incident Date: 02/05/2025
+Incident Time: 07:50
+Location: Near LB Nagar Flyover, Hyderabad, Telangana 500074
+Description: Two-wheeler slipped due to oil spill on road. Rider fell and sustained injuries to leg and arm.
+
+INVOLVED PARTIES
+----------------
+Claimant Name: Anitha Reddy
+Third Parties: Road maintenance vehicle (unknown driver)
+Contact Details: Phone: 9012345678, Email: anitha.reddy@gmail.com
+
+ASSET DETAILS
+-------------
+Asset Type: Two-Wheeler
+Asset ID: TS12LM4455
+Estimated Damage: ₹35,000
+
+CLAIM INFORMATION
+-----------------
+Claim Type: injury
+Initial Estimate: ₹35,000
+Attachments: medical_report.pdf, hospital_bills.pdf
+
+ADDITIONAL NOTES
+----------------
+Claimant admitted to nearby private hospital for treatment.

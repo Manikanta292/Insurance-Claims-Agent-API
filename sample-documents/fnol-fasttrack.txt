@@ -1,0 +1,38 @@
+FIRST NOTICE OF LOSS (FNOL)
+========================================
+
+POLICY INFORMATION
+------------------
+Policy Number: POL-2025-001122
+Policyholder Name: Suresh Naik
+Effective Start Date: 05/01/2025
+Effective End Date: 05/01/2026
+
+INCIDENT INFORMATION
+--------------------
+Incident Date: 02/18/2025
+Incident Time: 09:15
+Location: Near JNTU Metro Station, Kukatpally, Hyderabad, Telangana 500072
+Description: Low-speed collision at traffic signal. Minor scratches on rear bumper due to sudden braking by the vehicle ahead.
+
+INVOLVED PARTIES
+----------------
+Claimant Name: Suresh Naik
+Third Parties: Kiran (Rider of other two-wheeler)
+Contact Details: Phone: 9876543210, Email: suresh.naik@gmail.com
+
+ASSET DETAILS
+-------------
+Asset Type: Vehicle
+Asset ID: TS10EF4321
+Estimated Damage: ₹12,000
+
+CLAIM INFORMATION
+-----------------
+Claim Type: property
+Initial Estimate: ₹12,000
+Attachments: photos_damage.jpg
+
+ADDITIONAL NOTES
+----------------
+Traffic police informed. No injuries reported.

@@ -1,0 +1,38 @@
+FIRST NOTICE OF LOSS (FNOL)
+========================================
+
+POLICY INFORMATION
+------------------
+Policy Number:
+Policyholder Name: Mahesh Rao
+Effective Start Date: 01/03/2025
+Effective End Date: 01/03/2026
+
+INCIDENT INFORMATION
+--------------------
+Incident Date:
+Incident Time: 20:10
+Location: Ameerpet Main Road, Hyderabad, Telangana
+Description: Vehicle skid due to wet road conditions near signal.
+
+INVOLVED PARTIES
+----------------
+Claimant Name: Mahesh Rao
+Third Parties:
+Contact Details: Phone: 9000012345
+
+ASSET DETAILS
+-------------
+Asset Type: Vehicle
+Asset ID: TS08GH7788
+Estimated Damage: ₹45,000
+
+CLAIM INFORMATION
+-----------------
+Claim Type: property
+Initial Estimate: ₹45,000
+Attachments:
+
+ADDITIONAL NOTES
+----------------
+Driver was alone in the vehicle at the time of incident.
