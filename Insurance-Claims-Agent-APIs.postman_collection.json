@@ -1,0 +1,572 @@
+{
+  "info": {
+    "_postman_id": "ab5523d0-03c4-453c-b91b-1a47ec8f0287",
+    "name": "Insurance-Claims-Agent-APIs",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "51243573",
+    "_collection_link": "https://go.postman.co/collection/51243573-ab5523d0-03c4-453c-b91b-1a47ec8f0287?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "http://localhost:8081/api/claims/health",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/api/claims/health",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "claims",
+            "health"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "http://localhost:8081/api/claims/health",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8081/api/claims/health",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "claims",
+                "health"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Vary",
+              "value": "Origin"
+            },
+            {
+              "key": "Vary",
+              "value": "Access-Control-Request-Method"
+            },
+            {
+              "key": "Vary",
+              "value": "Access-Control-Request-Headers"
+            },
+            {
+              "key": "Content-Type",
+              "value": "text/plain;charset=UTF-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "44"
+            },
+            {
+              "key": "Date",
+              "value": "Fri, 06 Feb 2026 16:31:07 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "Insurance Claims Processing Agent is running"
+        }
+      ]
+    },
+    {
+      "name": "http://localhost:8081/api/claims/process",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "type": "file",
+              "key": "file",
+              "src": "postman-cloud:///1f102ca1-405f-44a0-9f55-0682ce6267ad"
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://localhost:8081/api/claims/process",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "claims",
+            "process"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "http://localhost:8081/api/claims/process",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "type": "file",
+                  "key": "file",
+                  "src": "postman-cloud:///1f102ca1-405f-44a0-9f55-0682ce6267ad"
+                }
+              ],
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8081/api/claims/process",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "claims",
+                "process"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Vary",
+              "value": "Origin"
+            },
+            {
+              "key": "Vary",
+              "value": "Access-Control-Request-Method"
+            },
+            {
+              "key": "Vary",
+              "value": "Access-Control-Request-Headers"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Fri, 06 Feb 2026 16:32:55 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"extractedFields\": {\n        \"policyNumber\": \"POL-2024-001234\",\n        \"policyholderName\": \"John Michael Smith\",\n        \"effectiveStartDate\": null,\n        \"effectiveEndDate\": null,\n        \"incidentDate\": \"2024-03-15\",\n        \"incidentTime\": null,\n        \"location\": \"123 Main Street, Springfield, IL 62701\",\n        \"description\": \"Minor rear-end collision at traffic light. Vehicle was stopped at red light when another vehicle failed to brake in time and collided with rear bumper. Low-speed impact, minimal damage to bumper and tail light assembly.\",\n        \"claimantName\": \"John Michael Smith\",\n        \"thirdParties\": [],\n        \"contactDetails\": \"Phone: (555) 123-4567, Email: john.smith@email.com\",\n        \"assetType\": \"Vehicle\",\n        \"assetId\": \"VIN-1HGBH41JXMN109186\",\n        \"estimatedDamage\": 3500,\n        \"claimType\": \"property\",\n        \"attachments\": [\n            \"photos_rear_damage.jpg\",\n            \" police_report_IL_2024_0315.pdf\"\n        ],\n        \"initialEstimate\": 3500\n    },\n    \"missingFields\": [],\n    \"recommendedRoute\": \"Fast-track\",\n    \"reasoning\": \"Estimated damage below $25,000 threshold and all mandatory fields present\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "http://localhost:8081/api/fraud-penalties/MH",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/api/fraud-penalties/MH",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "fraud-penalties",
+            "MH"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "http://localhost:8081/api/fraud-penalties/MH",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8081/api/fraud-penalties/MH",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "fraud-penalties",
+                "MH"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Vary",
+              "value": "Origin"
+            },
+            {
+              "key": "Vary",
+              "value": "Access-Control-Request-Method"
+            },
+            {
+              "key": "Vary",
+              "value": "Access-Control-Request-Headers"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Fri, 06 Feb 2026 16:38:30 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"state\": \"Maharashtra\",\n    \"stateCode\": \"MH\",\n    \"penaltyDescription\": \"Insurance fraud, including submission of false or misleading claims, is punishable under applicable provisions of the IPC and regulatory laws, and may result in fines, imprisonment, and blacklisting by insurers.\",\n    \"hasCriminalPenalty\": true,\n    \"hasCivilPenalty\": true\n}"
+        }
+      ]
+    },
+    {
+      "name": "http://localhost:8081/api/fraud-penalties",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/api/fraud-penalties",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "fraud-penalties"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "http://localhost:8081/api/fraud-penalties",
+          "originalRequest": {
+            "method": "GET",
+            "header": []
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Vary",
+              "value": "Origin"
+            },
+            {
+              "key": "Vary",
+              "value": "Access-Control-Request-Method"
+            },
+            {
+              "key": "Vary",
+              "value": "Access-Control-Request-Headers"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Fri, 06 Feb 2026 16:46:33 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n    {\n        \"state\": \"Telangana\",\n        \"stateCode\": \"TG\",\n        \"penaltyDescription\": \"Any person who knowingly submits a false or fraudulent insurance claim may be prosecuted under applicable provisions of the Indian Penal Code (IPC) and Insurance Act, 1938, and may be liable for fines and/or imprisonment.\",\n        \"hasCriminalPenalty\": true,\n        \"hasCivilPenalty\": true\n    },\n    {\n        \"state\": \"Karnataka\",\n        \"stateCode\": \"KA\",\n        \"penaltyDescription\": \"Knowingly providing false or misleading information to an insurer with intent to defraud is a punishable offence under Indian law and may result in fines, imprisonment, or denial of insurance benefits.\",\n        \"hasCriminalPenalty\": true,\n        \"hasCivilPenalty\": true\n    },\n    {\n        \"state\": \"Tamil Nadu\",\n        \"stateCode\": \"TN\",\n        \"penaltyDescription\": \"Submitting false or fraudulent insurance claims may lead to criminal prosecution under IPC and civil recovery actions by insurers, including denial of claims and legal damages.\",\n        \"hasCriminalPenalty\": true,\n        \"hasCivilPenalty\": true\n    },\n    {\n        \"state\": \"Maharashtra\",\n        \"stateCode\": \"MH\",\n        \"penaltyDescription\": \"Insurance fraud, including submission of false or misleading claims, is punishable under applicable provisions of the IPC and regulatory laws, and may result in fines, imprisonment, and blacklisting by insurers.\",\n        \"hasCriminalPenalty\": true,\n        \"hasCivilPenalty\": true\n    },\n    {\n        \"state\": \"Andhra Pradesh\",\n        \"stateCode\": \"AP\",\n        \"penaltyDescription\": \"Filing false or misleading information in an insurance claim constitutes insurance fraud and may attract criminal prosecution under IPC Sections 420 and related provisions, along with civil liability for damages.\",\n        \"hasCriminalPenalty\": true,\n        \"hasCivilPenalty\": true\n    }\n]"
+        }
+      ]
+    },
+    {
+      "name": "http://localhost:8081/api/fraud-penalties/MH/has-criminal",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/api/fraud-penalties/MH/has-criminal",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "fraud-penalties",
+            "MH",
+            "has-criminal"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "http://localhost:8081/api/fraud-penalties/MH/has-criminal",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8081/api/fraud-penalties/MH/has-criminal",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "fraud-penalties",
+                "MH",
+                "has-criminal"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Vary",
+              "value": "Origin"
+            },
+            {
+              "key": "Vary",
+              "value": "Access-Control-Request-Method"
+            },
+            {
+              "key": "Vary",
+              "value": "Access-Control-Request-Headers"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Fri, 06 Feb 2026 17:01:08 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "true"
+        }
+      ]
+    },
+    {
+      "name": "http://localhost:8081/api/fraud-penalties/MH/has-civil",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/api/fraud-penalties/MH/has-civil",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "api",
+            "fraud-penalties",
+            "MH",
+            "has-civil"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "http://localhost:8081/api/fraud-penalties/MH/has-civil",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8081/api/fraud-penalties/MH/has-civil",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "fraud-penalties",
+                "MH",
+                "has-civil"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Vary",
+              "value": "Origin"
+            },
+            {
+              "key": "Vary",
+              "value": "Access-Control-Request-Method"
+            },
+            {
+              "key": "Vary",
+              "value": "Access-Control-Request-Headers"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Fri, 06 Feb 2026 17:02:29 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "true"
+        },
+        {
+          "name": "http://localhost:8081/api/fraud-penalties/MH/has-civil",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8081/api/fraud-penalties/ABC/has-civil",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "api",
+                "fraud-penalties",
+                "ABC",
+                "has-civil"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Vary",
+              "value": "Origin"
+            },
+            {
+              "key": "Vary",
+              "value": "Access-Control-Request-Method"
+            },
+            {
+              "key": "Vary",
+              "value": "Access-Control-Request-Headers"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Fri, 06 Feb 2026 17:03:03 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "false"
+        }
+      ]
+    }
+  ]
+}
